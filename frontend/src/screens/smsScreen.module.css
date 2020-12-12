@@ -1,0 +1,120 @@
+.top{
+    position: relative;
+    background: 
+    url("../images/mikaela-wiedenhoff-AwmCuTXL97Q-unsplash.jpg") no-repeat scroll
+      center -27rem / cover;
+      
+}
+.main{
+    position: relative;
+    z-index: 1;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+    width:100%
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: auto;
+    width: 49%;
+    box-shadow: 0 0.7rem 1rem rgba(36, 35, 35, 0.704);
+    
+}
+.third{
+    margin: auto;
+    padding: 2rem;
+    width: 100%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button:hover , .second:hover{
+    transform: scale(1.1);
+}
+.third h2{
+    margin-bottom: 2rem;
+    border-bottom: 0.01rem solid black;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+}
+.fourth{
+    
+    margin: auto;
+    padding: 1rem;
+    width: 100%;
+}
+label{
+    display: block;
+    margin: 1rem;
+    color: black;
+    
+   
+    
+}
+input {
+    width:70% ;
+    background-color: inherit;
+   
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+textarea{
+    width:70% ;
+    height: 7rem;
+    background-color: inherit;
+}
+button{
+    width: 30% ;
+    margin-bottom: 2rem;;
+    border-radius: 14%;
+    height: 2.4rem;
+    margin: 1rem auto;
+    
+    box-shadow: 0 0.1rem 0.4rem rgba(36, 35, 35, 0.704);
+}
+
+/* Tablets and under */
+@media (max-width: 76.8rem) {
+    .top{
+        margin-top: 3rem;
+        background: 
+        url("../images/mikaela-wiedenhoff-AwmCuTXL97Q-unsplash.jpg") no-repeat scroll
+          center center / cover;
+    }
+    .second{
+        width: 70%; 
+        
+    }
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+    .second{
+        width: 90%; 
+    }
+    button{
+        width: 40%;
+    }
+    .top{
+        background: 
+        url("../images/mikaela-wiedenhoff-AwmCuTXL97Q-unsplash.jpg") no-repeat scroll
+          center center / cover;
+          
+    }
+}

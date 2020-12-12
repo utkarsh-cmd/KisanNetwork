@@ -1,0 +1,17 @@
+main {
+  min-height: 80vh;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+.homeTable{
+  color: white;
+}
+.hp{color: red;
+  cursor: pointer;}
+.hp:hover{
+  transform: scale(1.3);
+ 
+}
