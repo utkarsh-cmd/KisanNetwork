@@ -20,6 +20,7 @@ app.use("/api/contacts", contactRoutes);
 app.use("/api/sms", smsRoutes);
 
 // FOR CHECLING WHETHER PRODUCTION OR DEVELOPEMENT MODE AND PREPARE FOR DEPLOYEMENT ACCORDINGLY
+const __dirname = path.resolve();
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "/frontend/build")));
